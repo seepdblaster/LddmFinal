@@ -9,7 +9,11 @@
 import UIKit
 
 class DogCell: UITableViewCell {
+    
+    /// An instace of UIImageView which will be used to hold the dog image
     @IBOutlet weak var dogImage: UIImageView!
+    
+    /// An instance of UILabel which will be used to hold the dog name
     @IBOutlet weak var dogName: UILabel!
     
 
