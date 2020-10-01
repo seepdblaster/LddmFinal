@@ -11,10 +11,20 @@ import FirebaseStorage
 import FirebaseDatabase
 
 class DogDetailsController: UIViewController {
+    
+    /// An instance of UIImageView which will be used to hold the dog image
     @IBOutlet weak var dogImage: UIImageView!
+    
+    /// An instance of UILabel which will be used to hold the dog name
     @IBOutlet weak var dogName: UILabel!
+    
+    /// An instance of UILabel which will be used to hold the dog birth
     @IBOutlet weak var dogBirth: UILabel!
+    
+    /// An instance of UILabel which will be used to hold the dog owner
     @IBOutlet weak var dogOwner: UILabel!
+    
+    /// An instance of UILabel which will be used to hold the dog last vaccine
     @IBOutlet weak var dogVaccination: UILabel!
     
     var dog: Dog?
